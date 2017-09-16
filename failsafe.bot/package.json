@@ -4,5 +4,12 @@
 	"description" : "TCTF's lovable crazy helper bot",
 	"main" : "bot.js",
 	"author" : "macsalty",
-	"dependencies" : {}
+	"dependencies" : {
+        "bufferutil": "^3.0.2",
+	    "erlpack": "^0.1.0",
+	    "libsodium-wrappers": "^0.5.4",
+	    "sodium": "^2.0.1",
+	    "uws": "^8.14.1",
+	    "discord.js": "^11.2.1"
+	}
 }
