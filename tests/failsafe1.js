@@ -1,12 +1,13 @@
-var expect = require("chai").expect;
-var converter = require("../bot");
+var assert = require('assert'),
+    vows = require('vows'),
+    failsafe = require('../');
 
-describe("Ping Pong", function(){
-	it("Playing ping pong", function(){
-		if("plays ping pong", function(){
-			var goodpass = "!Ping";
 
-			expect(goodpass).to.equal("Pong!");
-		});
-	});
-});
+ vows.describe('play-ping-poing').addBatch({
+ 	'When playing ping pong': {
+ 		topic: failsafe.bot.on('!Ping'),
+ 		'result should be valid': function(result) {
+ 			assert.equal(result, 'Pong!');
+ 		}
+ 	}
+ }).export(module);
