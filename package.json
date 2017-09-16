@@ -4,7 +4,6 @@
 	"description" : "TCTF's lovable crazy helper bot",
 	"main" : "bot.js",
 	"author" : "macsalty",
-	"license" : "LGPL",
 	"dependencies" : {
         "bufferutil": "^3.0.2",
 	    "erlpack": "^0.1.0",
