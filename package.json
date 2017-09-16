@@ -5,7 +5,7 @@
 	"main" : "bot.js",
 	"author" : "macsalty",
 	"license" : "LGPL",
-	"respository":: {
+	"respository": {
 		"type" : "git",
 		"url" : "git://github.com/TCTF/tctf.git"
 	},
