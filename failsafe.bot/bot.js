@@ -36,7 +36,7 @@ bot.on('message', function (user, userID, channelID, message, evt) {
 					message: 'Pong!'
 				});
 			break;
-			// Just ad any case commands if you want to..
+			// Just add any case commands if you want to..
 		}
 	}
 }
