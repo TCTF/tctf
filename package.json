@@ -15,7 +15,6 @@
 	"dependencies" : {
         "discord.js": "^11.2.1",
         "bufferutil": "^3.0.2",
-	    "hammerandchisel/erlpack": "^0.1.0",
 	    "libsodium-wrappers": "^0.5.4",
 	    "sodium": "^2.0.1",
 	    "uws": "^8.14.1"	    
