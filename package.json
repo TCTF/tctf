@@ -22,7 +22,7 @@
         "bufferutil": "^3.0.2",
 	    "libsodium-wrappers": "^0.5.4",
 	    "sodium": "^2.0.1",
-	    "uws": "^8.14.1"	    
+	    "uws": "^0.14.1"	    
 	},
 	"devDependencies" : {
 		"vows" : "0.6.x"
