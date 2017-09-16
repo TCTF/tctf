@@ -1,0 +1,8 @@
+{
+	"name" : "failsafe",
+	"version" : "0.0.1",
+	"description" : "TCTF's lovable crazy helper bot",
+	"main" : "bot.js",
+	"author" : "macsalty",
+	"dependencies" : {}
+}
