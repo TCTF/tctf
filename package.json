@@ -5,6 +5,7 @@
 	"main" : "bot.js",
 	"author" : "macsalty",
 	"license" : "LGPL",
+	"main" : "./failsafe.bot/bot",
 	"respository": {
 		"type" : "git",
 		"url" : "git://github.com/TCTF/tctf.git"
@@ -12,12 +13,18 @@
 	"scripts": {
 		"test" : "vows --spec"
 	},
+	"engines" : {
+		"node" : ">=0.6"
+	},
 	"dependencies" : {
         "discord.js": "^11.2.1",
+        "winston" : "^2.3.1",
         "bufferutil": "^3.0.2",
-	    "erlpack": "^0.1.0",
 	    "libsodium-wrappers": "^0.5.4",
 	    "sodium": "^2.0.1",
-	    "uws": "^8.14.1"
+	    "uws": "^8.14.1"	    
+	},
+	"devDependencies" : {
+		"vows" : "0.6.x"
 	}
 }
